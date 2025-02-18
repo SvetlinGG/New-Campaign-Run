@@ -1,3 +1,33 @@
 :root {
+
+}
+
+body {
+    margin: 0;
+}
+
+.header-section {
+    background-color: #45269C;
+    width: 272px;
+    height: 1024px;
+}
+.list-items {
+    padding: 40px 32px auto 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1 fr);
+    border: 1px solid red;
+    width: 208px;
+    height: 400px;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Inter';
+    font-weight: 0.6em;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
     
 }
+
