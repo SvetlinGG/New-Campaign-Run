@@ -7,17 +7,27 @@ body {
 }
 
 .header-section {
-    background-color: #45269C;
+    background-color: #1D1042;
     width: 272px;
     height: 1024px;
 }
-.list-items {
-    padding: 40px 32px auto 32px;
-    display: grid;
-    grid-template-columns: repeat(2, 1 fr);
+.first-button {
+    margin: 40px 32px 40px 32px;
+    background-color: #45269C;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-size: 16px;
+    width: 13em;
+    height: 2.9em;
+}
+.nav-bar {
+    padding: 40px 32px 40px 32px;
     border: 1px solid red;
-    width: 208px;
+    width: 13em;
     height: 400px;
+}
+.list-items {
+    
 }
 
 ul {
